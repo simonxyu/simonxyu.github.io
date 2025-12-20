@@ -7,22 +7,35 @@
 </head>
 <body>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="cv.html">CV</a>
-    <a href="notes.html">Notes</a>
-    <a href="projects.html">Projects</a>
-    <a href="about.html">About</a>
+<nav class="navbar">
+    <div class="nav-left">
+        <a href="index.html">Home</a>
+        <a href="cv.html">CV</a>
+        <a href="notes.html">Notes</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+    </div>
+
+    <div class="nav-right">
+        <div class="dropdown">
+        <button class="dropbtn">Language ▾</button>
+        <div class="dropdown-content">
+            <a href="cv.html">English</a >
+            <a href="cv_zh.html">中文</a >
+            <a href="cv_jp.html">日本語</a >
+      </div>
+    </div>
+  </div>
 </nav>
 
 <h1>Curriculum Vitae</h1>
 
 <div class="section">
     <p>
-        <a href="assets/pdf/cv.pdf">Download CV (PDF)</a>
+        <a href="assets/pdf/cv/cv.pdf">Download CV (PDF)</a>
     </p>
     <iframe
-        src="assets/pdf/cv.pdf"
+        src="assets/pdf/cv/cv.pdf"
         width="100%"
         height="800px"
         style="border: none;">
